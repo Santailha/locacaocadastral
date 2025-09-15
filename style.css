@@ -101,6 +101,59 @@ button[type="submit"]:hover {
     font-weight: normal;
     color: #333; /* Cor normal para os textos dos botões de rádio */
 }
+/* Estilos para o container do botão de adicionar */
+.add-button-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo do botão secundário (Adicionar) */
+.btn-secondary {
+    background-color: transparent;
+    color: #3d357e;
+    border: 2px solid #3d357e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #3d357e;
+    color: #fff;
+}
+
+/* Bloco do locatário adicional */
+.locatario-adicional-bloco {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dashed #ccc;
+}
+
+/* Cabeçalho do fieldset com botão de remover */
+.fieldset-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Botão de remover */
+.btn-remover {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.btn-remover:hover {
+    background-color: #c0392b;
+}
 
 /* Classe para esconder elementos */
 .hidden {
