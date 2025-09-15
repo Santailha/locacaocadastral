@@ -26,7 +26,29 @@
             </fieldset>
 
             <div id="formPessoaJuridica" class="hidden">
-                </div>
+                <fieldset>
+                    <legend>Dados da Empresa</legend>
+                    <label for="cnpj">CNPJ*</label>
+                    <input type="text" id="cnpj" name="cnpj">
+                    <label for="razaoSocial">Razão Social*</label>
+                    <input type="text" id="razaoSocial" name="razaoSocial">
+                    <label for="cartaoCnpj">Cartão CNPJ*</label>
+                    <input type="file" id="cartaoCnpj" name="cartaoCnpj" accept=".pdf,.jpg,.jpeg,.png">
+                </fieldset>
+                <fieldset>
+                    <legend>Dados do Representante Legal</legend>
+                    <label for="repNome">Nome Completo*</label>
+                    <input type="text" id="repNome" name="repNome">
+                    <label for="repTelefone">Telefone*</label>
+                    <input type="tel" id="repTelefone" name="repTelefone">
+                    <label for="repEmail">E-mail*</label>
+                    <input type="email" id="repEmail" name="repEmail">
+                    <label for="repCpf">CPF*</label>
+                    <input type="text" id="repCpf" name="repCpf">
+                    <label for="repRg">RG*</label>
+                    <input type="text" id="repRg" name="repRg">
+                    </fieldset>
+            </div>
 
             <div id="formPessoaFisica">
                 <fieldset>
